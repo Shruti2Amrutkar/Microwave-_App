@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+           <head>
+           <link rel="manifest" href="manifest.json">
+                                     <meta charset="UTF-8">
+                                             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                                     <title>Microwave Engineering App</title>
+                                                     <link rel="stylesheet" href="style.css">
+                                                             </head>
+                                                             <body>
+                                                             <h1>Microwave Engineering App</h1>
+
+                                                             <!-- Notes Section -->
+                                                             <section>
+                                                             <h2>Notes</h2>
+                                                             <input type="file" id="uploadNotes" accept=".pdf,.doc,.txt">
+                                                                     <button onclick="uploadNote()">Upload Note</button>
+                                                                             <ul id="notesList"></ul>
+                                                                                     </section>
+
+                                                                                     <!-- Attendance Section -->
+                                                                                     <section>
+                                                                                     <h2>Attendance</h2>
+                                                                                     <p>Your Attendance:
+                                                                                     <span id="attendance">85%</span></p>
+                                                                                             </section>
+
+                                                                                             <!-- Reference Books Section -->
+                                                                                             <section>
+                                                                                             <h2>Reference Books</h2>
+                                                                                             <ul>
+                                                                                             <li>Microwave Engineering by David M. Pozar</li>
+                                                                                             <li>Foundations of Microwave Engineering by Robert E. Collin</li>
+                                                                                             <li>Microwave Devices and Circuits by Samuel Y. Liao</li>
+                                                                                             </ul>
+                                                                                             </section>
+
+                                                                                             <script src="script.js"></script>
+                                                                                                     </body>
+                                                                                                     </html>
